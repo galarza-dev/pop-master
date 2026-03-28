@@ -2,67 +2,6 @@
 
 An open-source port of Prince of Persia, based on the disassembly of the DOS version, extended with new features.
 
-## Links
-
-* Forum board: https://forum.princed.org/viewforum.php?f=126
-* GitHub: https://github.com/NagyD/SDLPoP
-* Compiled versions: https://www.popot.org/get_the_games.php?game=SDLPoP
-
-## Authors
-
-Author:
-
-* NagyD (David from `forum.princed.org`)
-
-Contributors:
-
-* Andrew (bug reports)
-* htamas (inspiration, dungeon wall drawing algorithm, bug reports)
-* Norbert (EndeavourAccuracy on GitHub) (bug reports, suggestions, improved gamepad support)
-* musa (bug reports)
-* Eugene (bug reports)
-* StaticReturn (Mac OS X: Makefile (for older SDL1 version), bug reports)
-* Poirot (ecalot on GitHub) (Mac OS X: Now compatible with Falcury SDL2 port)
-* kees (bugfixes)
-* Falcury
-    * porting to SDL2
-    * quicksave improvements
-    * replay files
-    * SDLPoP.ini: added basic support and constantly adding new options
-    * mod folders
-    * fake tiles
-    * readable sequence table
-    * CMake support
-    * pause menu
-    * MIDI support
-    * and various other bugfixes, improvements, additions
-* segra (segrax on GitHub) (Joystick support, resizable window)
-* DarkPrince (bug reports)
-* Andrey Vasilkin / digi@os2.snc.ru (eComStation (OS/2) support)
-* mfn (fixed a small bug when `USE_MIXER` is undefined)
-* diddledani (Visual C++/NMake support)
-* zaps166 (small Makefile fixes)
-* usineur (faster music loading)
-* yaqxsw (icon)
-* SergioMartin86
-* dstarosta
-* Ryzee119
-* berikv
-* xyproto
-* BarrOff
-* icculus
-* thrimbor
-* vanfanel
-* asppsa
-* akien-mga
-* mbeijen
-* alebcay
-* ckorn
-* Rondom
-* yuv422
-* dive
-
-Usernames on the list above refer to either GitHub users or users from `forum.princed.org`.
 
 ## GENERAL
 
@@ -367,7 +306,7 @@ The [Apoplexy level editor](https://www.popot.org/level_editors.php?editor=apopl
 #### How do replays work?
 
 Starting from version 1.16, you can capture or view replays in SDLPoP.
-To start recording, press Ctrl+Tab on the title screen or while in game. To stop recording, press Ctrl+Tab again.
+To start recording, press Ctrl+Tab on the title screen ors while in game. To stop recording, press Ctrl+Tab again.
 Your replays get saved in the "replays/" directory as files with a .P1R extension.
 You can change the location where replays are kept using the setting 'replays_folder' in SDLPoP.ini.
 
