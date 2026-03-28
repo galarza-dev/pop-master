@@ -1,5 +1,5 @@
 cd ..
-./prince full
+./prince
 ./prince full → pantalla completa
 ./prince megahit → activa trucos
 ./prince 3 megahit → inicia en nivel 3 con trucos
